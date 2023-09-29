@@ -316,7 +316,7 @@ GameObject:
   - component: {fileID: 123894889}
   - component: {fileID: 123894892}
   - component: {fileID: 123894891}
-  - component: {fileID: 123894890}
+  - component: {fileID: 123894893}
   m_Layer: 0
   m_Name: ResetButton
   m_TagString: Untagged
@@ -340,18 +340,6 @@ Transform:
   - {fileID: 1973380312}
   m_Father: {fileID: 465323497}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &123894890
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 123894888}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 863b90ea3fd0a5db4b6f880206e1aec2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &123894891
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -449,6 +437,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &123894893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 123894888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57700128ea5703f3ab75ed0e20bdb7b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &128702426
 GameObject:
   m_ObjectHideFlags: 0
